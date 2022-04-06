@@ -1,0 +1,18 @@
+:host {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 0px;
+  background-color: rgb(185, 185, 105);
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .3s all;
+  &:hover{
+    filter: brightness(1.1);
+  }
+  &:active{
+      filter:brightness(0.9);
+  }
+}
